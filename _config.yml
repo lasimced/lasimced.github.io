@@ -1,2 +1,19 @@
 # Title of your website
 title: 'Stampaggio lamiera e lastratura mercato automotive - LASIM'
+
+
+# Paginate
+paginate: 12
+paginate_path: /page:num/
+
+# Build settings
+markdown: kramdown
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+include: [_pages]
