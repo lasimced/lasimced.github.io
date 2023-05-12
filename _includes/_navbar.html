@@ -1,59 +1,76 @@
-<!-- Navbar Dark -->
-<nav class="navbar navbar-expand-lg navbar-light bg-gradient-light z-index-3 py-3">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-nav-hover bg-white z-index-3 py-3">
   <div class="container">
-    <a class="navbar-brand text-white" href="https://demos.creative-tim.com/material-kit/presentation" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
-      Material Kit 2
+    <a class="navbar-brand text-bolder text-lg" href="/" rel="tooltip" title="Home Page" data-placement="bottom">
+      LASIM SpA
     </a>
-    <a href="https://www.creative-tim.com/product/material-design-system-pro#pricingCard" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 ms-auto d-lg-none d-block">Buy Now</a>
     <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon mt-2">
-        <span class="navbar-toggler-bar bar1"></span>
-        <span class="navbar-toggler-bar bar2"></span>
-        <span class="navbar-toggler-bar bar3"></span>
-      </span>
+        <span class="navbar-toggler-icon mt-2">
+          <span class="navbar-toggler-bar bar1"></span>
+          <span class="navbar-toggler-bar bar2"></span>
+          <span class="navbar-toggler-bar bar3"></span>
+        </span>
     </button>
-    <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
-      <ul class="navbar-nav navbar-nav-hover mx-auto">
-        <li class="nav-item mx-2">
-          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
-            Pages
-            <img src="../../assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-1">
+    <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0 ms-lg-12 ps-lg-5" id="navigation">
+      <ul class="navbar-nav navbar-nav-hover ms-auto">
+        <li class="nav-item dropdown dropdown-hover mx-2 ms-lg-6">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuPages8" data-bs-toggle="dropdown" aria-expanded="false">
+            Azienda
+            <img src="./assets./img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-2 d-lg-block d-block">
           </a>
+          <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages8">
+            <div class="d-lg-block">
+              <a href="/azienda/mission/" class="dropdown-item border-radius-md"><span>Mission</span></a>
+              <a href="/azienda/vision" class="dropdown-item border-radius-md"><span>Vision</span></a>
+              <a href="/azienda/numeri" class="dropdown-item border-radius-md"><span>Numeri</span></a>
+              <a href="/azienda/stabilimenti" class="dropdown-item border-radius-md"><span>Stabilimenti</span></a>
+              <a href="/azienda/certificazioni" class="dropdown-item border-radius-md"><span>Certificazioni</span></a>
+              <a href="/azienda/codice-etico" class="dropdown-item border-radius-md"><span>Codice Etico</span></a>
+            </div>
+          </div>
         </li>
-
-        <li class="nav-item mx-2">
-          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
-            Account
-            <img src="../../assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-1">
-          </a>
-        </li>
-        <li class="nav-item mx-2">
-          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
-            Blocks
-            <img src="../../assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-1">
-          </a>
-        </li>
-
         <li class="nav-item dropdown dropdown-hover mx-2">
-          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" role="button">
-            Docs
-            <img src="../../assets/img/down-arrow-white.svg" alt="down-arrow" class="arrow ms-1">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
+            Processi Produttivi
+            <img src="./assets./img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-2 d-lg-block d-block">
+          </a>
+          <ul class="dropdown-menu dropdown-menu-animation dropdown-menu-end dropdown-md dropdown-md-responsive p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuBlocks">
+            <div class="d-lg-block">
+              <a href="/processi-produttivi/tranciasviluppo/" class="dropdown-item border-radius-md"><span>Trancia/Sviluppo</span></a>
+              <a href="/processi-produttivi/tailored-blanks/" class="dropdown-item border-radius-md"><span>Tailored Blanks</span></a>
+              <a href="/processi-produttivi/stampaggio/" class="dropdown-item border-radius-md"><span>Stampaggio</span></a>
+              <a href="/processi-produttivi/spot-welding/" class="dropdown-item border-radius-md"><span>Spot Welding</span></a>
+              <a href="/processi-produttivi/alluminio-componenti-e-telai/" class="dropdown-item border-radius-md"><span>Alulasim</span></a>
+              <a href="/processi-produttivi/attrezzeria/" class="dropdown-item border-radius-md"><span>Attrezzeria</span></a>
+              <a href="/processi-produttivi/after-market/" class="dropdown-item border-radius-md"><span>After market</span></a>
+            </div>
+          </ul>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">
+            Qualità
           </a>
         </li>
-      </ul>
-
-      <ul class="navbar-nav d-lg-block d-none">
-        <li class="nav-item">
-          <a href="https://www.creative-tim.com/product/material-design-system-pro#pricingCard" class="btn btn-sm  bg-gradient-primary  mb-0 me-1" role="button">Buy Now</a>
+        <li class="nav-item mx-2">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">
+            Prodotti
+          </a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">
+            Clienti
+          </a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">
+            Contatti
+          </a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center">
+            <img src="img/en.png">
+          </a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-<!-- End Navbar -->
-
-<header>
-    <div class="page-header min-height-400" style="background-image: url('/assets/img/city-profile.jpg');" loading="lazy">
-      <span class="mask bg-gradient-dark opacity-8"></span>
-    </div>
-  </header>
