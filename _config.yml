@@ -1,7 +1,7 @@
 # Title of your website
 title: 'Stampaggio lamiera e lastratura mercato automotive - LASIM'
 description: "Dal 1972 Lasim persegue l'obiettivo della soddisfazione dei Clienti attraverso l'innovazione e il miglioramento continuo."
-
+url: "https://www.lasim.it"
 # Paginate
 paginate: 12
 paginate_path: /page:num/
